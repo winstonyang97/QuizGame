@@ -36,6 +36,8 @@ class ViewController: UIViewController {
     
     @IBAction func anwserButtonPressed(_ sender: UIButton) {
         
+        print("herlo")
+        
         
         let userAnwser = sender.currentTitle! //True or False
         let userRight = quizBrain.checkAnswer(userAnwser)
