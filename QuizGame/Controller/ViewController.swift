@@ -36,7 +36,8 @@ class ViewController: UIViewController {
     
     @IBAction func anwserButtonPressed(_ sender: UIButton) {
         
-        print("herlo")
+        print("helo")
+        
         
         
         let userAnwser = sender.currentTitle! //True or False
